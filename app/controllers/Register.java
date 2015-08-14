@@ -1,13 +1,16 @@
 package controllers;
 
 import models.User;
-import play.data.DynamicForm;
-import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
 import utils.FormUtil;
 import views.html.register;
 
+/**
+ * 登録
+ * @author tako
+ *
+ */
 public class Register extends Controller {
 
     public static Result index() {
