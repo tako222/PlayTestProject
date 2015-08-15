@@ -9,3 +9,5 @@ libraryDependencies ++= Seq(
 )     
 
 play.Project.playJavaSettings
+
+libraryDependencies += "com.google.api-client" % "google-api-client" % "1.20.0"

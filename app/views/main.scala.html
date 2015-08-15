@@ -1,3 +1,4 @@
+@(iconUrl: String)
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +8,10 @@
 <script src="@routes.Assets.at("javascripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
 </head>
 <body>
+    
+    <div>本日の京都の天気</div>
+    <img src="@iconUrl" />
+    
     <div>
     	<a href="/register">Register</a>
     </div>
